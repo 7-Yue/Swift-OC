@@ -1,0 +1,18 @@
+
+module GTSDK{
+    header "GTSDK.framework/Headers/GeTuiSdk.h"
+    
+    export *
+}
+
+
+module GTExtensionSDK{
+    header "GTExtensionSDK.framework/Headers/GeTuiExtSdk.h"
+    header "GTExtensionSDK.framework/Headers/GtExtVoicePlay.h"
+    export *
+}
+
+module OCBridge{
+    header "OCClass.h"
+    export *
+}

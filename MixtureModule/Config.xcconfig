@@ -1,0 +1,13 @@
+//
+//  Config.xcconfig
+//  MixtureModule
+//
+//  Created by 尹乾鹏 on 2019/5/31.
+//  Copyright © 2019 尹乾鹏. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SWIFT_INCLUDE_PATHS = $(SRCROOT)/
+MODULEMAP_PRIVATE_FILE = $(SRCROOT)/module.modulemap
