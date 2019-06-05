@@ -19,7 +19,7 @@
 		2302418122A0BE1F00C240CD /* GTSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2302417F22A0BE1F00C240CD /* GTSDK.framework */; };
 		2302418222A0BE1F00C240CD /* GTExtensionSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2302418022A0BE1F00C240CD /* GTExtensionSDK.framework */; };
 		2302418422A0BE4400C240CD /* SwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2302418322A0BE4400C240CD /* SwiftClass.swift */; };
-		2302418722A0BEBA00C240CD /* OCClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 2302418522A0BEBA00C240CD /* OCClass.h */; };
+		2302418722A0BEBA00C240CD /* OCClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 2302418522A0BEBA00C240CD /* OCClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2302418822A0BEBA00C240CD /* OCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2302418622A0BEBA00C240CD /* OCClass.m */; };
 		2302418B22A0BF0A00C240CD /* SwiftDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2302418A22A0BF0A00C240CD /* SwiftDemo.swift */; };
 		2302418E22A0BF2D00C240CD /* OCDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2302418D22A0BF2D00C240CD /* OCDemo.m */; };
