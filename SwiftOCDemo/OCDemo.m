@@ -7,7 +7,17 @@
 //
 
 #import "OCDemo.h"
+#import "SwiftOCDemo-Swift.h"
+//#import <MixtureModule/OCClass.h>
+#import <MixtureModule/MixtureModule-Swift.h>
 
 @implementation OCDemo
 
+- (void)demo {
+    //  主的oc 调 库的OC
+//    OCClass *c = [OCClass new];
+    
+    //  主的oc 调 库的swift
+    SwiftClass *x = [SwiftClass new];
+}
 @end

@@ -22,9 +22,11 @@ import OCBridge
 /// 5.创建 File->New->iOS->Other->Configuration Settings file 配置文件
 /// 6.文件内写好 SWIFT_INCLUDE_PATHS 以及 MODULEMAP_PRIVATE_FILE 描述（注意文件所在路径）
 /// 7.在swift代码内 import 需要的模块 模块名就在你声明的 module.modulemap 文件里
-public class SwiftClass : NSObject {
-    public func demo() {
+@objc public class SwiftClass : NSObject {
+     @objc public func demo() {
+        //  库的swift 调 库的库
         GeTuiSdk.status()
+        //  库的swift 调 库的OC
         let x = OCClass()
         x.demo()
     }

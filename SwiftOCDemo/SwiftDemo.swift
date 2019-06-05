@@ -12,6 +12,10 @@ import MixtureModule
 @objc class SwiftOCDemo: NSObject {
     override init() {
         super.init()
+        //  主的swift 调 库的swift
         SwiftClass().demo()
+        //  主的swift 调 库的OC
+        let x = OCClass()
+        x.demo()
     }
 }

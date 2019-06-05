@@ -7,11 +7,17 @@
 //
 
 #import "OCClass.h"
+#import <MixtureModule/MixtureModule-Swift.h>
+//#import "GTSDK.framework/Headers/GeTuiSdk.h"
+#import <GTSDK/GeTuiSdk.h>
 
 @implementation OCClass
 
 - (void)demo {
-    NSLog(@"success");
+    //  库的oc 调 库的swift
+    SwiftClass *x = [SwiftClass new];
+    //  库的oc 调 库的库
+    [GeTuiSdk resume];
 }
 
 @end
